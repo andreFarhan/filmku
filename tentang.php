@@ -14,9 +14,9 @@
     <!-- sidebar -->
     <div class="sidebar-right" id="sidebar">
         <button class="btn btn-primary btn-lg btn-circle" onclick="sidebarClose()"> <i class="fa fa-times"></i> </button>
-        <a href="index">HOME</a>
-        <a href="filmku">FILMKU</a>
-        <a href="tentang" class="active">TENTANG</a>
+        <a href="index.php">HOME</a>
+        <a href="filmku.php">FILMKU</a>
+        <a href="tentang.php" class="active">TENTANG</a>
     </div>
     <!-- akhir sidebar -->
 
@@ -29,9 +29,9 @@
         </div>
         
         <div class="menu">
-            <a href="index">HOME</a>
-            <a href="filmku">FILMKU</a>
-            <a href="tentang" class="active">TENTANG</a>
+            <a href="index.php">HOME</a>
+            <a href="filmku.php">FILMKU</a>
+            <a href="tentang.php" class="active">TENTANG</a>
             <button class="btn btn-primary btn-lg icon" onclick="sidebarOpen()">
                 <i class="fa fa-bars"></i>
             </button>

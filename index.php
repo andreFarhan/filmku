@@ -14,24 +14,24 @@
     <!-- sidebar -->
     <div class="sidebar-right" id="sidebar">
         <button class="btn btn-primary btn-lg btn-circle" onclick="sidebarClose()"> <i class="fa fa-times"></i> </button>
-        <a href="index" class="active">HOME</a>
-        <a href="filmku">FILMKU</a>
-        <a href="tentang">TENTANG</a>
+        <a href="index.php" class="active">HOME</a>
+        <a href="filmku.php">FILMKU</a>
+        <a href="tentang.php">TENTANG</a>
     </div>
     <!-- akhir sidebar -->
 
     <!-- nav -->
     <nav class="navbar justify-content-between mb-3">
         <div class="logo">
-             <a href="index">
+             <a href="index.php">
                 <img src="assets/logo%20filmku.png" class="mt-2" height="75px">
              </a>
         </div>
         
         <div class="menu">
-            <a href="index" class="active">HOME</a>
-            <a href="filmku">FILMKU</a>
-            <a href="tentang">TENTANG</a>
+            <a href="index.php" class="active">HOME</a>
+            <a href="filmku.php">FILMKU</a>
+            <a href="tentang.php">TENTANG</a>
             <button class="btn btn-primary btn-lg icon" onclick="sidebarOpen()">
                 <i class="fa fa-bars"></i>
             </button>
@@ -51,7 +51,7 @@
                     </h5>
                 </div>
                 <br>
-                <a href="filmku" class="btn btn-primary btn-lg">CARI SITUS!</a>
+                <a href="filmku.php" class="btn btn-primary btn-lg">CARI SITUS!</a>
             </div>
 
             <div class="image1">
