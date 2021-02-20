@@ -1,0 +1,195 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	overflow-x: hidden;
+	font-family: "Open Sans";
+}
+
+.sidebar-right .btn-circle{
+    border-radius: 50px;
+}
+
+.sidebar-right .btn{
+    margin: 16px 0px 24px 16px;
+}
+
+.sidebar-right{
+    height: 100%;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    right: 0px;
+    z-index: 99;
+    transform: translateX(300px);
+    transition: 500ms;
+
+}
+
+.sidebar-right a{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 8px 0px 0px 24px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.sidebar-right a:hover {
+    color: #ef3c39;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+.sidebar-right .active{
+    color: #ef3c39;
+}
+
+.bgc{
+    background-color: #ef3c39!important;
+}
+
+.bg{
+	width: 100%;
+	height: 100%;
+	background-image: url("bg.png");
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.bg2{
+    width: 100%;
+    height: 100%;
+    background-image: url("bg2.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg3{
+    width: 100%;
+    height: 100%;
+    background-image: url("bg3.png");
+    background-size: cover;
+}
+
+/*navbar*/
+.navbar{
+	width: 100%;
+	height: 75px;
+}
+
+.logo a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0px 0px 0px 10px;
+}
+
+.menu a{
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 0px 40px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.menu .active{
+	color: #ef3c39;
+}
+
+.menu a:hover{
+	color: #ef3c39;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu .icon{
+	display: none;
+}
+/*akhir navbar*/
+
+
+/*konten*/
+.content-left{
+	position: relative;
+}
+
+.text-blue{
+	color: #ef3c39;
+}
+
+.description{
+	max-width: 300px;
+}
+
+.btn-primary{
+	background-color: #ef3c39 !important;
+}
+
+.btn{
+	border-radius: 50px !important;
+}
+/*akhir konten*/
+
+
+.social{
+    font-size: 30px; 
+    font-family: 'Open Sans'; 
+    font-weight: bold; 
+    font-color: skyblue;
+    text-decoration: none;
+}
+
+.social a:hover{
+    font-size: 30px; 
+    font-family: 'Open Sans'; 
+    font-weight: bold; 
+    color: #ef3c39;
+    text-decoration: none;
+}
+
+.link{
+    font-size: 20px; 
+    font-family: 'Open Sans'; 
+    font-weight: bold; 
+    font-color: skyblue;
+    text-decoration: none;
+}
+
+.link a:hover{
+    font-size: 20px; 
+    font-family: 'Open Sans'; 
+    font-weight: bold; 
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1366px) {
+    .content-left{
+        margin-top: 100px;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .menu .icon{
+        display: block;
+    }
+
+    .menu a{
+        display: none;
+    }
+
+    .image1{
+        display: none;
+    }
+
+    .content-left{
+        margin-right: 350px;
+        margin-top: -10px;
+    }   
+  }

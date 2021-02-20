@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^index index.php [NC,L]
+RewriteRule ^filmku filmku.php [NC,L]
+RewriteRule ^tentang tentang.php [NC,L]
